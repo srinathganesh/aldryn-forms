@@ -1,4 +1,12 @@
 ================
+NOTE:
+================
+- This is a staging only branch to make edit and send Pull Request to ORIGINAL PROJECT https://github.com/divio/aldryn-forms
+- This project is NOT maintained
+- IF you need to use this application, kindly use the original project at https://github.com/divio/aldryn-forms
+
+
+================
 Aldryn Forms App
 ================
 
