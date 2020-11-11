@@ -552,6 +552,7 @@ class FormButtonPlugin(CMSPlugin):
 
 
 class FormSubmission(models.Model):
+    user_id = models.IntegerField()
     name = models.CharField(
         max_length=255,
         verbose_name=_('form name'),

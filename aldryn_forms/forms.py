@@ -97,6 +97,7 @@ class FormSubmissionBaseForm(forms.Form):
         language = self.form_plugin.language
 
         self.instance = FormSubmission(
+            user_id=self.request.user.id,
             name=self.form_plugin.name,
             language=language,
             form_url=self.request.build_absolute_uri(self.request.path),
